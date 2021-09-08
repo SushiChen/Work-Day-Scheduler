@@ -29,10 +29,10 @@ class TimeblockObj {
       .textContent = currentTime.format('dddd, MMMM Do');
   }
   
-  /*** functions for displaying all timeblock rows ***/
+  /* Function that displays all timeblock rows from 9am to 5pm */
   function displayTimeblockRows(currentTime) {
     const currentHour = currentTime.hour();
-    //working hours are 9-5 or 9-17
+    // Working hours from 9am to 5pm
     for (let i = 9; i <= 17; i ++) {
       const timeblock = createTimeblockRow(i);
       const hourCol = createCol(createHourDiv(i), 1);
@@ -96,7 +96,7 @@ class TimeblockObj {
     }
   }
   
-  /*** functions for saving to local storage ***/
+  // This is the fuction that allows for it to be save to local storage which allows for it to show even after refrese
   function containerClicked(event, timeblockList) {
     if (isSaveButton(event)) {
       const timeblockHour = getTimeblockHour(event);
