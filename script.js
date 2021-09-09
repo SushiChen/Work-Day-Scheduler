@@ -117,7 +117,6 @@ class TimeblockObj {
   function getTextAreaValue(timeblockHour) {
     return document.querySelector(`#timeblock-${timeblockHour} textarea`).value;
   }
-  
   function placeTimeblockInList(newTimeblockObj, timeblockList) {
     if (timeblockList.length > 0) {
       for (let savedTimeblock of timeblockList) {
@@ -130,11 +129,9 @@ class TimeblockObj {
     timeblockList.push(newTimeblockObj);
     return;
   }
-  
   function saveTimeblockList(timeblockList) {
     localStorage.setItem('timeblockObjects', JSON.stringify(timeblockList));
   }
-  
   function setTimeblockText(timeblockList) {
     if (timeblockList.length === 0 ) {
       return;

@@ -15,7 +15,7 @@ textarea{
   width: 100%;
   height: 100%;
 }
-
+/* Text set to be centered, background color is transparent */
 .jumbotron {
   text-align: center;
   background-color: transparent;
