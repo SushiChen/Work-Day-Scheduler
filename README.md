@@ -12,6 +12,7 @@ After you have inserted the activity you can click on the save button which will
 
 When the time has past the timeblock wil change from green to grey . So the color meanings are for past present and future.
 Grey = Past Red = Current Green = Future.
+(The Following images will only show grey due to photos being taken after 5pm )
 <!-- The Following images will only show grey due to photos being taken after 5pm -->
 ![](Meeting.png)
 
