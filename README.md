@@ -3,7 +3,7 @@ Hello this is an Work Day Scheduler that will help you
 plan out you day and allow for you to time manage better
 
 # URL
-
+https://sushichen.github.io/Work-Day-Scheduler/
 
 # How does it Work?
 You will be want to put what activity in the time slot that its set for.
